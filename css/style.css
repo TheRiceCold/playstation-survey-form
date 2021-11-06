@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,900);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -58,8 +58,9 @@ body ::-moz-placeholder {
 }
 
 #title {
-  font-size: 2.5em;
+  font-size: 2em;
   margin-top: 8vh;
+  font-weight: 400;
 }
 
 /*#region Accordion*/
@@ -214,13 +215,15 @@ ul li input[type=checkbox]:checked ~ i:after {
 
 /* Chrome, Safari, Edge, Opera */
 #age::-webkit-outer-spin-button,
-#age::-webkit-inner-spin-button {
+#age::-webkit-inner-spin-button,
+#phone::-webkit-outer-spin-button,
+#phone::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
 /* Firefox */
-#age {
+#age, #phone {
   -moz-appearance: textfield;
 }
 
@@ -392,6 +395,7 @@ ul li input[type=checkbox]:checked ~ i:after {
 	padding-right: 1em;
 	line-height: 2;
 	cursor: pointer;
+  font-weight: 400;
 }
 
 .group input[type="checkbox"] ~ label {
@@ -647,4 +651,3 @@ ul li input[type=checkbox]:checked ~ i:after {
 	}
 }
 /*#endregion Squares*/
-

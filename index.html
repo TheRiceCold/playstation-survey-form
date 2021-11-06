@@ -23,15 +23,15 @@
 
       <div class="container">
         <form id="start-form">
-          <h2 style="text-align: center; margin-bottom: 60px;">Why do we ask?</h2>
-          <p id="description">97% of gamers say playing games benefits their mental health, according to survey. Video games are being used as a benefit to personal wellbeing, as well as being useful to combat loneliness during the COVID-19 lockdown, new research shows.</p>
+          <h2 style="text-align: center; margin-bottom: 60px; font-weight: 400;">Why do we ask?</h2>
+          <p id="description" style="text-align: center;">97% of gamers say playing games benefits their mental health, according to survey. Video games are being used as a benefit to personal wellbeing, as well as being useful to combat loneliness during the COVID-19 lockdown, new research shows.</p>
           <div class="btn-box" style="margin-top: 65px;">
             <button type="button" id="start">Begin</button>
           </div>
         </form>
 
         <form id="survey-form"> <!-- Form 1 Start -->
-          <h2 style="text-align: center; margin-bottom: 5vh;">Personal Details</h2>
+          <h2 style="text-align: center; margin-bottom: 35px; font-weight: 400;">Personal Info</h2>
           <div class="form-control">
             <input type="text" placeholder="Name" id="name" />
             <i class="fas fa-check-circle"></i>
@@ -45,7 +45,7 @@
           </div>
           
           <div class="form-control">
-            <input type="number" placeholder="Age (12 to 75)" id="age" value="age"/>
+            <input type="number" placeholder="Age (12 to 75)" id="age" value="age" maxlength="2"/>
             <i class="fas fa-check-circle"></i>
             <i class="fas fa-exclamation-circle"></i>
           </div>
@@ -70,14 +70,14 @@
             </div>
           </div>
 
-          <input type="text" placeholder="Phone Number (optional)" id="phone" />
+          <input type="number" placeholder="Phone Number (optional)" id="phone" maxlength="11"/>
           <div class="btn-box">
             <button type="submit" id="next1">Next</button>
           </div>
         </form> <!-- Form 1 End -->
 
         <form id="survey-form2"> <!-- Form 2 Start -->
-          <h2 style="text-align: center; margin-bottom: 50px;">What device you use to play games?</h2>
+          <h2 style="text-align: center; margin-bottom: 50px; font-weight: 400;">What device you use to play games?</h2>
           <div class="group-console">
             <div class="input-container">
               <input id="handheld" class="radio-button" type="radio" name="radio" required/>
@@ -190,7 +190,7 @@
 
         <form id="survey-form3"> <!-- Form 3 Start -->
           <div class="group">
-            <h2 style="text-align: center; margin-bottom: 35px;">What genre of games do you play?</h2>
+            <h2 style="text-align: center; margin-bottom: 35px; font-weight: 400;">What genre of games do you play?</h2>
             <input type="checkbox" name="cb" id="cb1" />
             <label for="cb1">Role Playing (RPG and more)</label>
             <input type="checkbox" name="cb" id="cb2" />
@@ -203,8 +203,8 @@
             <label for="cb5">Survival and horror</label>
             <input type="checkbox" name="cb" id="cb6" />
             <label for="cb6">Platformer</label>
-            <input type="checkbox" name="cb" id="cb6" />
-            <label for="cb6">None of the above</label>
+            <input type="checkbox" name="cb" id="cb7" />
+            <label for="cb7">None of the above</label>
           </div>
           <div class="btn-box">
             <button type="button" id="back2">Back</button>
@@ -214,7 +214,7 @@
 
         <form id="survey-form4"> <!-- Form 4 Start -->
           <div class="group">
-            <h2 style="text-align: center; margin-bottom: 50px;">How often you play games?</h2>
+            <h2 style="text-align: center; margin-bottom: 50px; font-weight: 400;">How often you play games?</h2>
             <input type="radio" name="rb" id="rb1" />
             <label for="rb1">I play game everytime</label>
             <input type="radio" name="rb" id="rb2" />
@@ -236,7 +236,7 @@
 
         <form id="survey-form5"> <!-- Form 5 Start -->
           <div class="group">
-            <h2 style="text-align: center; margin-bottom: 50px;">Why do you play games?</h2>
+            <h2 style="text-align: center; margin-bottom: 50px; font-weight: 400;">Why do you play games?</h2>
             <input type="radio" name="rb2" id="1rb1" />
             <label for="1rb1">Because I enjoy it</label>
             <input type="radio" name="rb2" id="1rb2" />
@@ -257,7 +257,7 @@
         </form> <!-- Form 5 End -->
 
         <form id="survey-form6"> <!-- Form 6 Start -->
-          <h2 style="text-align: center; margin-bottom: 50px;">Leave us a comment</h2>
+          <h2 style="text-align: center; margin-bottom: 30px; margin-top: 20px; font-weight: 400;">Leave us a comment</h2>
           <textarea name="" id="" cols="30" rows="12" placeholder="Your comment">
           </textarea>
           <div class="btn-box">
@@ -267,9 +267,19 @@
         </form> <!-- Form 6 End -->
 
         <form id="end-form"> <!-- EndForm Start -->
-          <h1 style="text-align: center; margin-top: 100px;">
-            Thank you very much for your cooperation.
+          <h1 style="text-align: center; margin-top: 100px; font-weight: 900;">
+            Thank so you very much for your cooperation. Have a great time!
           </h1>
+          <div id="success-container">
+            <div id="success-box">
+              <div class="face">
+                <div class="eye"></div>
+                <div class="eye right"></div>
+                <div class="mouth happy"></div>
+              </div>
+              <div class="shadow scale"></div>
+            </div>
+          </div>
         </form> <!-- EndForm End -->
       </div>
 

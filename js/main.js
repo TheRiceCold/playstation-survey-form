@@ -114,6 +114,9 @@ function checkInputs() {
   else if (!isEmail(emailValue)) {
     setErrorFor(email, 'Not a valid email');
   }
+  else if (ageValue === '') {
+    setErrorFor(ageValue, 'Please enter your age');
+  }
   else if(isNaN(ageValue)) {
     setErrorFor(ageValue, 'Not a number');
   }
