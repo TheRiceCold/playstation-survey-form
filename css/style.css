@@ -277,7 +277,6 @@ ul li input[type=checkbox]:checked ~ i:after {
 
 .selected::after {
   content: "";
-  background: url("img/arrow-down.svg");
   background-size: contain;
   background-repeat: no-repeat;
 
