@@ -70,13 +70,13 @@
             </div>
           </div>
 
-          <input type="number" placeholder="Phone Number (optional)" id="phone" maxlength="11"/>
+          <input type="number" placeholder="Phone Number (optional)" id="phone" maxlength="11" onkeydown="return (event.keyCode!=9)"/>
           <div class="btn-box">
             <button type="submit" id="next1">Next</button>
           </div>
         </form> <!-- Form 1 End -->
 
-        <form id="survey-form2"> <!-- Form 2 Start -->
+        <form id="survey-form2" onkeydown="return (event.keyCode!=9)"> <!-- Form 2 Start -->
           <h2 style="text-align: center; margin-bottom: 50px; font-weight: 400;">What device you use to play games?</h2>
           <div class="group-console">
             <div class="input-container">
@@ -188,7 +188,7 @@
           </div>
         </form> <!-- Form 2 End -->
 
-        <form id="survey-form3"> <!-- Form 3 Start -->
+        <form id="survey-form3" onkeydown="return (event.keyCode!=9)"> <!-- Form 3 Start -->
           <div class="group">
             <h2 style="text-align: center; margin-bottom: 35px; font-weight: 400;">What genre of games do you play?</h2>
             <input type="checkbox" name="cb" id="cb1" />
@@ -212,7 +212,7 @@
           </div>
         </form> <!-- Form 3 End -->
 
-        <form id="survey-form4"> <!-- Form 4 Start -->
+        <form id="survey-form4" onkeydown="return (event.keyCode!=9)"> <!-- Form 4 Start -->
           <div class="group">
             <h2 style="text-align: center; margin-bottom: 50px; font-weight: 400;">How often you play games?</h2>
             <input type="radio" name="rb" id="rb1" />
@@ -234,7 +234,7 @@
           </div>
         </form> <!-- Form 3 End -->
 
-        <form id="survey-form5"> <!-- Form 5 Start -->
+        <form id="survey-form5" onkeydown="return (event.keyCode!=9)"> <!-- Form 5 Start -->
           <div class="group">
             <h2 style="text-align: center; margin-bottom: 50px; font-weight: 400;">Why do you play games?</h2>
             <input type="radio" name="rb2" id="1rb1" />
