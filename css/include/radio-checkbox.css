@@ -1,0 +1,60 @@
+.group {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.group h2 {
+  margin-bottom: 5vh;
+}
+
+.group input[type="checkbox"], input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.group label {
+  margin-bottom: 1.8vh;
+	position: relative;
+	margin-right: 1em;
+	padding-left: 2em;
+	padding-right: 1em;
+	line-height: 2;
+	cursor: pointer;
+  font-weight: 400;
+}
+
+.group input[type="checkbox"] ~ label {
+  margin-bottom: 1.05vh;
+}
+
+.group label:before {
+	 box-sizing: border-box;
+	 content: " ";
+	 position: absolute;
+	 top: 0.474em;
+	 left: 0;
+	 display: block;
+	 width: 1.4em;
+	 height: 1.4em;
+	 border: 2px solid white;
+	 border-radius: 0.25em;
+	 z-index: -1;
+}
+.group input[type="radio"] + label::before {
+	 border-radius: 1em;
+}
+/* Checked */
+.group input[type="checkbox"]:checked + label, input[type="radio"]:checked + label {
+	 padding-left: .75em;
+	 color: var(--focuscolor);
+}
+.group input[type="checkbox"]:checked + label:before, input[type="radio"]:checked + label:before {
+	 top: 0;
+	 width: 105%;
+	 height: 2em;
+	 background: white;
+}
+.group label, label::before {
+	transition: 0.25s all ease;
+}
