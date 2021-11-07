@@ -35,11 +35,24 @@
   padding: 1rem;
   transition: transform 300ms ease;
 }
-.group-console .input-container .icon svg {
-  fill: white;
-  width: 3rem;
+.group-console .input-container i {
+  display: block;
+  mask-size: cover;
   height: 3rem;
+  width: 3rem;
+  background: white;
 }
+
+#handheld-icon,
+#console-icon {
+  margin-left: 9px;
+}
+
+
+.group-console .input-container .radio-button:checked + .radio-tile i {
+  background: #079ad9;
+}
+
 .group-console .input-container .radio-tile-label {
   text-align: center;
   font-size: 0.75rem;
@@ -54,7 +67,7 @@
   color: #079ad9;
   transform: scale(1.1, 1.1);
 }
-.group-console .input-container .radio-button:checked + .radio-tile .icon svg {
+.group-console .input-container .radio-button:checked + .radio-tile svg {
   fill: #079ad9;
   background-color: transparent;
 }

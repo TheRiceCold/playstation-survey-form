@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,900);
 
 /* Includes */
-@import 'include/accordion.css';
-@import 'include/consoles.css';
-@import 'include/radio-checkbox.css';
-@import 'include/squares.css';
-@import 'include/select-box.css';
+@import 'includes/accordion.css';
+@import 'includes/consoles.css';
+@import 'includes/radio-checkbox.css';
+@import 'includes/squares.css';
+@import 'includes/select-box.css';
 
 * {
   box-sizing: border-box;
