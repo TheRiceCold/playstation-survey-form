@@ -2,8 +2,9 @@
 Activity 2: Survey Form using HTML, CSS and JavaScript
 # Contents
 - Responsive Webpage
-- Form Input Designs
 - Multi Form
+- Input Validations
+- Input Designs
 - Slide Transition
 - Background Animation
 
