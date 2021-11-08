@@ -1,5 +1,8 @@
 # activity-2-survey-form
-Activity 2: Survey Form using HTML, CSS and JavaScript
+ - HTML
+ - CSS
+ - JavaScript
+
 # Contents
 - Responsive Webpage
 - Form Input Designs
