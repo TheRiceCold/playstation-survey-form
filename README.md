@@ -1,4 +1,4 @@
-# activity-2-survey-form
+# activity 2: survey-form
  - HTML
  - CSS
  - JavaScript
