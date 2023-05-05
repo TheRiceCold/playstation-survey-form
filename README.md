@@ -1,16 +1,13 @@
-# activity 2: survey-form
- - HTML
- - CSS
- - JavaScript
+# Activity 2: Survey Form
 
-# Contents
+### Contents
 - Responsive Webpage
 - Form Input Designs
 - Multi Form
 - Slide Transition
 - Background Animation
 
-# Webpage Overview
+### Webpage Overview
 <img src='https://media2.giphy.com/media/c1wy6Vv0Hu7YokGYf6/giphy.gif'/>
 
 ### Sliding Function
@@ -25,6 +22,6 @@ function slidePrev(from, to) {
 }
 ```
 
-#  Icon Toolkit
+##  Icon Toolkit
 - Font Awesome
     https://fontawesome.com/
